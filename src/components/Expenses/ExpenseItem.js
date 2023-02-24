@@ -4,7 +4,6 @@ import Card from "../UI/Card";
 import React,{useState} from 'react';
 
 function ExpenseItem(props) {
-  var i=1;
   const [title,setTitle] = useState(props.title);
 
   const clickHandler = () => {
